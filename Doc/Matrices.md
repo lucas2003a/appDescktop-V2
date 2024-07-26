@@ -44,7 +44,7 @@ para implementar y operar modelos de redes neuronales.
 ![Matrix_MultiDimensional](../res/img/Matrix_MultiDimensional.jpg)
 
 ## Consideraciones
-- Las matrices bi-dimensionales pueden ser recorridos en un bucle foreach, aunque esta clase de bucles tiene como objetivo recorrer
+- Las matrices bi-dimensionales pueden ser recorridas en un bucle foreach aunque esta clase de bucles tiene como objetivo recorrer
 	colecciones de datos uni-dimensionales o simples.
 	Por esta razón a pesar que se pueda iterar una matriz bi-dimensional con un foreach, al intentar hacer lo mismo con matrices de mayores dimensiones, obtenemos una excepción,
 	en ese caso lo recomendable es usar bucles for anidados.
