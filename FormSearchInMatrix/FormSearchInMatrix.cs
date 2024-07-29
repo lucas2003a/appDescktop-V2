@@ -92,8 +92,9 @@ namespace appDescktop_V2.FormSearchInMatrix
         {
             bool isFind = false;
             int index = 1;
-            int lenghRow = matrix.GetLength(0);
+            int lenghRow = matrix.GetLength(0); //Longitud de la primera dimensión(filas)
             
+            //Inicia en 1 ya que 0 en la matriz son las cabeceras
             for(int i = 1; i < lenghRow; i++)
             {
                 if (code.Equals(matrix[i, 0]))

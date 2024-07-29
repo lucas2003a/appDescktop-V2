@@ -106,6 +106,7 @@
             GrpCodeSearch.Controls.Add(label1);
             GrpCodeSearch.Controls.Add(BtnSearchCode);
             GrpCodeSearch.Controls.Add(TxtCode);
+            GrpCodeSearch.ForeColor = SystemColors.ControlText;
             GrpCodeSearch.Location = new Point(24, 12);
             GrpCodeSearch.Name = "GrpCodeSearch";
             GrpCodeSearch.Size = new Size(210, 100);
