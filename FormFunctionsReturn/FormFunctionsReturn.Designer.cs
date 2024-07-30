@@ -135,6 +135,7 @@
             Controls.Add(GrpInput);
             Name = "FormFunctionsReturn";
             Text = "Formulario - funciones de retorno";
+            Load += FormFunctionsReturn_Load;
             GrpInput.ResumeLayout(false);
             GrpInput.PerformLayout();
             GrpData.ResumeLayout(false);

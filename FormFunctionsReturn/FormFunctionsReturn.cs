@@ -51,9 +51,9 @@ namespace appDescktop_V2.FormFunctionsReturn
         /// </summary>
         /// <param name="TotalPurchase"></param>
         /// <returns></returns>
+
         private double CalculateDiscount(double TotalPurchase)
         {
-
             double Discount = 0;
 
             try
@@ -87,6 +87,11 @@ namespace appDescktop_V2.FormFunctionsReturn
         private void ShowMessage(string messge, string title, MessageBoxButtons buttons, MessageBoxIcon icon)
         {
             MessageBox.Show(messge, title, buttons, icon);
+        }
+
+        private void FormFunctionsReturn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
